@@ -10,6 +10,7 @@ import RxCocoa
 import RxSwift
 import Moya
 class MoyaTestVC: UIViewController {
+    
     var vm:MoyaVM = MoyaVM()
     var disposeBag = DisposeBag()
     var tableView:UITableView!
